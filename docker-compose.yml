@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  mysqldb:
+    image: mariadb
+    restart: always
+    env_file: .env
+    environment:
+      - MYSQL_DATABASE=$DB_NAME
+      - MYSQL_ROOT_PASSWORD=$MYSQL_PASSWD
+      - MYSQL_USER=$MYSQL_USER
+      - MYSQL_PASSWORD=$MYSQL_PASSWD
+    ports:
+      - "4000:3306"
+    volumes:
+      - db:/var/lib/mysql
+  app:
+    depends_on:
+      - mysqldb
+    build: .
+    restart: always
+    env_file: .env
+    environment:
+      - DB_HOST=mysqldb
+      - DB_USER=$MYSQL_USER
+      - DB_PASSWORD=$MYSQL_PASSWD
+      - DB_NAME=$DB_NAME
+      - DB_PORT=3306
+      - BOT_TOKEN=$BOT_TOKEN
+      - TZ=CET
+    stdin_open: true
+    tty: true
+
+volumes:
+  db:

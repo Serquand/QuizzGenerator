@@ -1,0 +1,36 @@
+{
+    "name": "quizzgenerator",
+    "version": "1.0.0",
+    "description": "A Disocord BOT for generating some quizz questions and handling quizz in a Discord guild",
+    "main": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prod": "MODE=prod ts-node ./src/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.6.8",
+        "chatgpt": "^5.2.5",
+        "dayjs": "^1.11.10",
+        "discord.js": "^13.12.0",
+        "dotenv": "^16.4.5",
+        "glob": "^7.2.3",
+        "mariadb": "^3.3.0",
+        "moment": "^2.30.1",
+        "mysql2": "^3.9.7",
+        "node-cron": "^3.0.3",
+        "nodemon": "^3.1.0",
+        "openai": "^4.47.1",
+        "sequelize": "^6.37.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.2.2",
+        "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+        "@types/glob": "^8.1.0",
+        "@types/node-cron": "^3.0.11",
+        "@types/uuid": "^9.0.8"
+    }
+}

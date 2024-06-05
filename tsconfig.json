@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "module": "CommonJS",
+        "target": "ES2017",
+        "allowJs": true,
+        "outDir": "build",
+        "noEmitOnError": true,
+        "pretty": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+    }
+}

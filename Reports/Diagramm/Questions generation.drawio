@@ -1,0 +1,74 @@
+<mxfile host="Electron" modified="2024-06-05T12:32:13.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="IqelWp5CIGEsGgORJjsj" version="22.0.2" type="device">
+  <diagram name="Page-1" id="kIBuzrutFyAS311oZS0o">
+    <mxGraphModel dx="1140" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F48neUv-2FC4coiqLlUM-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F48neUv-2FC4coiqLlUM-1" target="F48neUv-2FC4coiqLlUM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-1" value="Begin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="65" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F48neUv-2FC4coiqLlUM-2" target="F48neUv-2FC4coiqLlUM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-2" value="Questions generation by ChatGPT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="140" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F48neUv-2FC4coiqLlUM-4" target="F48neUv-2FC4coiqLlUM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-4" value="Get every single questions (with answers)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F48neUv-2FC4coiqLlUM-7" target="F48neUv-2FC4coiqLlUM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-7" value="int i = 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="280" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F48neUv-2FC4coiqLlUM-9" target="F48neUv-2FC4coiqLlUM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-9" value="Get the label for the question and the answer at the index i" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="350" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F48neUv-2FC4coiqLlUM-11" target="F48neUv-2FC4coiqLlUM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-11" value="Create the question object and add it to the array of questions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="420" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F48neUv-2FC4coiqLlUM-13" target="F48neUv-2FC4coiqLlUM-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-13" value="Increment i by 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="490" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F48neUv-2FC4coiqLlUM-17" target="F48neUv-2FC4coiqLlUM-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="610" />
+              <mxPoint x="670" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-20" value="Non" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F48neUv-2FC4coiqLlUM-19">
+          <mxGeometry x="-0.8109" y="5" relative="1" as="geometry">
+            <mxPoint x="-24" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F48neUv-2FC4coiqLlUM-17" target="F48neUv-2FC4coiqLlUM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-17" value="i is equal to the number of questions ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="570" width="375" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F48neUv-2FC4coiqLlUM-21" value="Return all the questions that have been added to the array" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="690" width="390" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

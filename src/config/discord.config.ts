@@ -1,0 +1,2 @@
+export const EMBED_IMAGE_URL = 'https://media.istockphoto.com/id/1223692043/fr/vectoriel/banni%C3%A8re-de-texte-de-n%C3%A9on-de-quiz-sur-le-mur-de-brique-jeu-d%C3%A9quipe-de-questions-affiche.jpg?s=612x612&w=0&k=20&c=dgSS2uf6v0wY5NMBZEcgUSqtutL75ZYwKpJifxKtl6w=';
+export const BOT_NAME = 'QuizzGenerator';
